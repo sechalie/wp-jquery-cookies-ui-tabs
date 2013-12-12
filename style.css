@@ -1,4 +1,3 @@
-
 #tabs{
 	margin:0px;
 	padding:0px;
@@ -34,5 +33,5 @@
 	display:block;	
 }
 .ui-tabs-active a{
-	color:#900;
+	color:#f90;
 }
