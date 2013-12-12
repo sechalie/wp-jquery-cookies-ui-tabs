@@ -1,0 +1,38 @@
+
+#tabs{
+	margin:0px;
+	padding:0px;
+	float:left;
+	background:#000;
+}
+#tabs ul li{
+	position:relative;
+}
+#tabs ul li a{
+	float:left;
+	margin:0px;
+	padding:10px;
+	background:#000;
+}
+#tabs p{
+	color:#000;
+	background:#fff;
+	padding:0px 3px 0px 3px;
+	margin:0px 10px 10px 10px;
+}
+#tabs .under{
+	position:absolute;
+	width:11px;
+	height:6px;
+	bottom:0px;
+	left:50%;
+	margin:0px 0px 0px -3px;
+	background:url(images/under.png);
+	display:none;
+}
+#tabs ul li:hover .under{
+	display:block;	
+}
+.ui-tabs-active a{
+	color:#900;
+}
